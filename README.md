@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Gustav and I'm a Germany, from Berlin</p>
+<p align="left">My name is Gustav and I'm from Berlin, Germany.</p>
 
 ###
 
