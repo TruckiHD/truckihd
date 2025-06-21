@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">✨ Creating bugs since 2019<br>📚 I'm currently learning Flutter (dart)<br>🎯 Goals: Making Apps and fun Games</p>
+<p align="left">✨ Creating bugs since 2020<br>📚 I'm currently learning Flutter (dart)<br>🎯 Goals: Making Apps and fun Games</p>
 
 ###
 
