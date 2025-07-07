@@ -51,23 +51,6 @@
 
 ---
 
-## 🎮 Fun Facts
-
-- 🎯 I love creating games and mobile apps
-- 🐛 Professional bug creator since 2020
-- 🏙️ Berlin-based developer
-- 🚀 Always excited about new tech
-
----
-
-## 📫 Connect with Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
-
----
-
 ## 💡 Quote
 
 > "The best way to predict the future is to create it." - Peter Drucker
