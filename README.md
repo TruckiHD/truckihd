@@ -46,8 +46,6 @@
 
 - 🔭 I'm currently working on **MemoryLane**
 - 🌱 I'm currently learning **Flutter & Dart**
-- 👯 I'm looking to collaborate on **Mobile Apps**
-- 💬 Ask me about **Flutter, Game Development**
 
 ---
 
