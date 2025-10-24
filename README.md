@@ -40,7 +40,7 @@
 ![](https://raw.githubusercontent.com/truckihd/stats/master/generated/overview.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/truckihd/stats/master/generated/languages.svg#gh-dark-mode-only)
 
-## Visitor counter
+## 👀 Visitor Counter
 ![Nixie Counter](http://192.18.158.188:8080/simple.php?username=truckihd&cb=1)
 
 ---
