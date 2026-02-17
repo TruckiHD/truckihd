@@ -47,7 +47,7 @@
 
 ## 🏆 Current Projects
 
-- 🔭 I'm currently working on **MemoryLane**
+- 🔭 I'm currently working on [**MemoryLane**](https://memorylane.one)
 - 🌱 I'm currently learning **Flutter & Dart**
 
 ---
