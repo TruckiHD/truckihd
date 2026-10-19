@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" fill="none">
+  <defs>
+    <clipPath id="card"><rect width="1200" height="320" rx="20"/></clipPath>
+    <radialGradient id="b1"><stop offset="0" stop-color="#0277BD" stop-opacity=".85"/><stop offset="1" stop-color="#0277BD" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b2"><stop offset="0" stop-color="#4FC3F7" stop-opacity=".55"/><stop offset="1" stop-color="#4FC3F7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b3"><stop offset="0" stop-color="#7C4DFF" stop-opacity=".45"/><stop offset="1" stop-color="#7C4DFF" stop-opacity="0"/></radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".55" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity=".3"/>
+    </linearGradient>
+    <mask id="gridmask"><rect width="1200" height="320" fill="url(#fade)"/></mask>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#fff" fill-opacity=".09"/></pattern>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#9BE1FF"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/></linearGradient>
+    <style>
+      .sans { font-family: 'Segoe UI', 'Inter', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: 'JetBrains Mono', 'Cascadia Code', Consolas, 'Courier New', monospace; }
+      .in1 { animation: rise .9s cubic-bezier(.2,.7,.2,1) .1s both; }
+      .in2 { animation: rise .9s cubic-bezier(.2,.7,.2,1) .35s both; }
+      .in3 { animation: rise .9s cubic-bezier(.2,.7,.2,1) .6s both; }
+      .in4 { animation: rise 1s cubic-bezier(.2,.7,.2,1) .8s both; }
+      @keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+      .float { animation: float 6s ease-in-out infinite; }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      .blink { animation: blink 1.1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      .pulse { animation: pulse 2s ease-in-out infinite; transform-origin: 77px 72px; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="#0A0E17"/>
+
+    <!-- drifting color blobs -->
+    <circle cx="930" cy="40" r="300" fill="url(#b1)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-60 30;0 0" dur="14s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="300" r="240" fill="url(#b2)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-40 -40;0 0" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="340" r="260" fill="url(#b3)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;50 -20;0 0" dur="16s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- dot grid -->
+    <rect width="1200" height="320" fill="url(#dots)" mask="url(#gridmask)"/>
+
+    <!-- left: text -->
+    <g class="in1">
+      <rect x="64" y="58" width="196" height="28" rx="14" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".14"/>
+      <circle class="pulse" cx="80" cy="72" r="4" fill="#4FC3F7"/>
+      <text class="sans" x="94" y="77" font-size="13" font-weight="600" letter-spacing="1.6" fill="#B9C6DD">BERLIN · GERMANY</text>
+    </g>
+
+    <text class="sans in2" x="60" y="166" font-size="76" font-weight="800" letter-spacing="-2" fill="url(#name)">Hey, I'm Gustav<tspan fill="#4FC3F7">.</tspan></text>
+
+    <text class="sans in3" x="64" y="210" font-size="22" font-weight="500" fill="#9AA7BF">I build <tspan fill="#E6EDF7" font-weight="700">Flutter apps</tspan> &amp; <tspan fill="#E6EDF7" font-weight="700">fun games</tspan>.</text>
+
+    <g class="in3 mono" font-size="15" fill="#6B7A96">
+      <text x="64" y="262">~/truckihd <tspan fill="#4FC3F7">$</tspan> <tspan fill="#C9D4E5">creating bugs since 2020</tspan><tspan class="blink" fill="#4FC3F7" font-weight="700">_</tspan></text>
+    </g>
+
+    <!-- right: floating code card -->
+    <g class="in4">
+      <g class="float">
+        <rect x="770" y="70" width="368" height="186" rx="16" fill="#0E1422" fill-opacity=".72" stroke="url(#edge)"/>
+        <circle cx="794" cy="94" r="5" fill="#FF5F57"/><circle cx="811" cy="94" r="5" fill="#FEBC2E"/><circle cx="828" cy="94" r="5" fill="#28C840"/>
+        <text class="mono" x="1118" y="98" font-size="12" fill="#5D6B85" text-anchor="end">gustav.dart</text>
+        <line x1="770" y1="112" x2="1138" y2="112" stroke="#fff" stroke-opacity=".07"/>
+        <g class="mono" font-size="15">
+          <text x="794" y="142"><tspan fill="#C792EA">class</tspan> <tspan fill="#FFCB6B">Gustav</tspan> <tspan fill="#C792EA">extends</tspan> <tspan fill="#FFCB6B">Dev</tspan> <tspan fill="#89DDFF">{</tspan></text>
+          <text x="814" y="168"><tspan fill="#82AAFF">stack</tspan><tspan x="880" fill="#89DDFF">=</tspan> <tspan fill="#89DDFF">[</tspan><tspan fill="#C3E88D">'Dart'</tspan><tspan fill="#89DDFF">,</tspan> <tspan fill="#C3E88D">'Rust'</tspan><tspan fill="#89DDFF">];</tspan></text>
+          <text x="814" y="194"><tspan fill="#82AAFF">mood</tspan><tspan x="880" fill="#89DDFF">=</tspan> <tspan fill="#C3E88D">'shipping'</tspan><tspan fill="#89DDFF">;</tspan></text>
+          <text x="814" y="220"><tspan fill="#82AAFF">coffee</tspan><tspan x="880" fill="#89DDFF">=</tspan> <tspan fill="#F78C6C">double</tspan><tspan fill="#89DDFF">.</tspan><tspan fill="#82AAFF">infinity</tspan><tspan fill="#89DDFF">;</tspan></text>
+          <text x="794" y="244" fill="#89DDFF">}</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- subtle top highlight -->
+    <rect x=".5" y=".5" width="1199" height="319" rx="19.5" stroke="#fff" stroke-opacity=".08"/>
+  </g>
+</svg>
