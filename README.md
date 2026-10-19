@@ -21,55 +21,19 @@
 
 ## 🔭 Projects
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>📸 <a href="https://memorylane.one">MemoryLane</a></h3>
-      My own app, built with <b>Flutter</b> & <b>Firebase</b>.
-      <br/><br/>
-      <img src="https://skillicons.dev/icons?i=flutter,dart,firebase"/>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🦀 <a href="https://github.com/neoOMSI/neoOMSI">neoOMSI</a></h3>
-      Open-source game engine rewrite in <b>Rust</b>. I'm a contributor.
-      <br/><br/>
-      <img src="https://skillicons.dev/icons?i=rust,github"/>
-    </td>
-    <td width="33%" valign="top">
-      <h3>💸 <a href="https://github.com/TruckiHD/buget_planer">Budget Planner</a></h3>
-      A simple budget planning app written in <b>Dart</b>.
-      <br/><br/>
-      <img src="https://skillicons.dev/icons?i=flutter,dart"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://memorylane.one"><img src="./assets/project-memorylane.svg" width="32.5%" alt="MemoryLane"/></a>
+  <a href="https://github.com/neoOMSI/neoOMSI"><img src="./assets/project-neoomsi.svg" width="32.5%" alt="neoOMSI"/></a>
+  <a href="https://truckihd.de"><img src="./assets/project-levity.svg" width="32.5%" alt="Levity"/></a>
+</p>
 
 <br/>
 
 ## 🛠️ Tech Stack
 
-<table align="center">
-  <tr>
-    <td align="center" width="130"><b>App Dev</b></td>
-    <td><img src="https://skillicons.dev/icons?i=flutter,dart,firebase&perline=8"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=rust,java,php&perline=8"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Web</b></td>
-    <td><img src="https://skillicons.dev/icons?i=html,css,js&perline=8"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=git,github,githubactions,vscode,linux&perline=8"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Creative & Hardware</b></td>
-    <td><img src="https://skillicons.dev/icons?i=blender,unreal,raspberrypi&perline=8"/></td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/tech.svg" width="100%" alt="Flutter, Dart, Firebase, Rust, Java, PHP, JavaScript, HTML, CSS, Git, GitHub, Linux, Blender, Unreal Engine, Raspberry Pi"/>
+</p>
 
 <br/>
 
